@@ -148,7 +148,7 @@ public class GameOfLife {
 		{
 			for(int j = 1; j < arr[0].length -1; j++)
 			{
-				System.err.printf("%2d",arr[i][j]);
+				System.out.printf("%2d",arr[i][j]);
 			}
 			System.out.println();
 		}
