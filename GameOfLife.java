@@ -8,13 +8,13 @@
 public class GameOfLife {
 
 	public static void main(String[] args) {
-		//String fileName = "hypnotic.dat";
+		String fileName = "pulsar.dat";
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
-		////test1(fileName);
+		
 		//// test2(fileName);
 		///test3(fileName, 3);
-		///play(fileName);
+		play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
@@ -148,7 +148,7 @@ public class GameOfLife {
 		{
 			for(int j = 1; j < arr[0].length -1; j++)
 			{
-				System.err.printf("%2d",arr[i][j]);
+				System.out.printf("%d  ",arr[i][j]);
 			}
 			System.out.println();
 		}
